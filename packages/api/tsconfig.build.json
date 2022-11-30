@@ -1,0 +1,16 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    // "outDir": "dist",
+    "rootDir": "src",
+    "composite": false,
+    "declaration": false
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "typings.d.ts",
+    "../../global.d.ts"
+  ],
+  "references": []
+}

@@ -1,0 +1,35 @@
+{
+  "name": "@fd-core/api",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "fangdown <409951398@qq.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "es/index.js",
+  "module": "es/index.js",
+  "typings": "es/index.d.ts",
+  "directories": {
+    "test": "__tests__"
+  },
+  "files": [
+    "es"
+  ],
+  "publishConfig": {
+    "registry": "https://mirrors.cloud.tencent.com/npm/"
+  },
+  "scripts": {
+    "build": "NODE_ENV=production BABEL_ENV=production rollup --config rollup.config.js && tsc"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "15.0.0",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^9.0.0",
+    "@rollup/plugin-typescript": "^6.1.0",
+    "babel-preset-react-app": "^9.1.2",
+    "rollup-plugin-peer-deps-external": "^2.2.3",
+    "rollup-plugin-postcss": "^3.1.8"
+  },
+  "dependencies": {
+    "@rollup/plugin-image": "^3.0.1"
+  }
+}
