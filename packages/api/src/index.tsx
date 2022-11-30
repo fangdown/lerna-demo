@@ -1,3 +1,3 @@
-import DemoApi from "./demo";
-
-export { DemoApi };
+import ChartDemo from "./chart";
+export { ChartDemo };
+export default ChartDemo;
